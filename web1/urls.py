@@ -37,7 +37,7 @@ urlpatterns = [
     url(r'^logout/', view.logout),
 
 	url(r'^captcha', include('captcha.urls')),
-
+	url(r'index',view.index),
 #	url(r'^confirm/$', views.user_confirm),
 
 

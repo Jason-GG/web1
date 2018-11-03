@@ -64,6 +64,9 @@ def login(request):
     login_form = forms.UserForm()
     return render(request, 'login/login.html', locals())
 
+def index(request):
+	pass
+	return render("/index/")
 
 def logout(request):
     if not request.session.get('is_login', None):
